@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAll",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Rudolph DOUM AKONO",
+			"details": ":Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"add(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"_number": "value to store"
+					}
+				},
+				"get(uint256)": {
+					"details": "Return value",
+					"params": {
+						"index": "Position of the requested value"
+					},
+					"returns": {
+						"_0": "number"
+					}
+				},
+				"getAll()": {
+					"details": "Return all value",
+					"returns": {
+						"_0": "number"
+					}
+				},
+				"length()": {
+					"details": "Return size of value",
+					"returns": {
+						"_0": "number"
+					}
+				}
+			},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Storage.sol": "Storage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Storage.sol": {
+			"keccak256": "0xe72d467078199bb6ca045f60759a95ef514ee2ae7b227e8e0443d5a6761a40c0",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://69c6dbb0e498abaa0be772810541a21621dced9787ac65f166c0582f936025b4",
+				"dweb:/ipfs/QmeHnWmuFixP7WHoBE6y6QEyyJQsPEpBUL2uLEdiiPJv2a"
+			]
+		}
+	},
+	"version": 1
+}
